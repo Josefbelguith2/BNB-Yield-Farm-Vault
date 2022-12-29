@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist",
+        "skipLibCheck": true
+    },
+    "exclude": ["node_modules/"],
+    "include": ["deploy/", "test/"],
+    "files": ["hardhat.config.ts"]
+}
