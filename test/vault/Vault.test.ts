@@ -4,7 +4,7 @@ import { IERC20, Vault, Vault__factory, IUniswapV2Router02 } from "../../typecha
 import { Signer } from "ethers";
 import { solidity } from "ethereum-waffle";
 
-const SPEEDY_RPC = "https://speedy-nodes-nyc.moralis.io/a17c9bc49f30339ffd778a16/bsc/mainnet/archive";
+const SPEEDY_RPC = "https://clean-cosmological-river.bsc.discover.quiknode.pro/c9de34123c5ab25becaf0da059ad8b339690577c/"; //https://speedy-nodes-nyc.moralis.io/a17c9bc49f30339ffd778a16/bsc/mainnet/archive
 const WHALE = "0x63fc43d4874f314d3f519d9406415dc91c5b11ec";
 const ROUTER = "0x10ED43C718714eb63d5aA57B78B54704E256024E";
 const FARMING = "0x73feaa1eE314F8c655E354234017bE2193C9E24E";
